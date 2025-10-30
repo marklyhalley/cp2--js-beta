@@ -26,6 +26,8 @@ function cifrarAtbash(texto) {
     return saida;
 }
 
+console.log(cifrarAtbash("OlaMundo")); 
+// Esperado: "OñzPfmwl" (Nota: pode variar dependendo da sua implementação de caracteres especiais/ASCII)
 
 function cifrarCesar(mensagem, chave) {
   let resultado = "";
@@ -49,6 +51,8 @@ function cifrarCesar(mensagem, chave) {
   return resultado;
 }
 
+console.log(cifrarCesar("criptografia", 3)); // Esperado: "fulswrjudiia"
+console.log(cifrarCesar("fulswrjudiia", -3)); // Esperado: "criptografia"
 
 
 
